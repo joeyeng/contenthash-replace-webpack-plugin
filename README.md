@@ -1,6 +1,6 @@
 Content Hash Replace Webpack Plugin
 ================================
-[![test](https://travis-ci.org/giemch/contenthash-replace-webpack-plugin.svg?branch=master)](https://travis-ci.org/giemch/contenthash-replace-webpack-plugin)
+[![Build](https://travis-ci.org/giemch/contenthash-replace-webpack-plugin.svg?branch=master)](https://travis-ci.org/giemch/contenthash-replace-webpack-plugin)
 [![Total Downloads](https://img.shields.io/npm/dt/contenthash-replace-webpack-plugin.svg)](https://npm-stat.com/charts.html?package=contenthash-replace-webpack-plugin)
 
 This plugin is for transforming bundle references in your html files with cache friendly filenames using content hashes. It's meant to work side by side with [ExtractTextPlugin](https://www.npmjs.com/package/extract-text-webpack-plugin) (when using content hashes). Its main use is for processing css file references. Images should work too, but I haven't tested it. It was made generic enough to handle js bundle references as well, but as of this writing it appears using [contenthash] is not supported for naming js bundles.
