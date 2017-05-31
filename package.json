@@ -1,0 +1,38 @@
+{
+  "name": "contenthash-replace-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin for transforming bundle references in your html files with content hash formatted names.",
+  "keywords": [
+    "contenthash",
+    "content hash",
+    "webpack contenthash",
+    "webpack content hash",
+    "webpack content hash replace",
+    "webpack replace content hash",
+    "webpack content hash css",
+    "webpack css"
+  ],
+  "homepage": "https://github.com/giemch/contenthash-replace-webpack-plugin",
+  "main": "index.js",
+  "author": "Joey Eng",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha",
+    "build-sample": "webpack --config ./sample/webpack.config.js"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "mocha": "^3.4.2",
+    "path": "^0.12.7",
+    "webpack": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giemch/contenthash-replace-webpack-plugin.git"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "style-loader": "^0.18.1"
+  }
+}
