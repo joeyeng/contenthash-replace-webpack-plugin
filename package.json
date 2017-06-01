@@ -1,6 +1,6 @@
 {
   "name": "contenthash-replace-webpack-plugin",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Webpack plugin for transforming bundle references in your html files with content hash formatted names.",
   "keywords": [
     "contenthash",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "fs": "0.0.2",
+    "loader-utils": "^1.1.0",
     "mocha": "^3.4.2",
     "path": "^0.12.7",
     "webpack": "^2.6.1"
