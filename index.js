@@ -29,7 +29,7 @@ ContentHashReplacePlugin.prototype.apply = function (compiler) {
 
       const template = fs.readFileSync(src, 'utf8');
       const htmlOutput = transform(template, format, files);
-      fs.writeFile(dest, htmlOutput);
+      fs.writeFileSync(dest, htmlOutput);
     });
   });
 };
