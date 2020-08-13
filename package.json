@@ -23,7 +23,7 @@
   "dependencies": {
     "fs": "0.0.2",
     "loader-utils": "^2.0.0",
-    "path": "^0.12.7",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "mocha": "^3.4.2",
