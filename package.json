@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "fs": "0.0.2",
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^2.0.0",
     "mocha": "^3.4.2",
     "path": "^0.12.7",
     "webpack": "^2.6.1"
